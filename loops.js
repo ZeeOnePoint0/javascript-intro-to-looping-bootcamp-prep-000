@@ -14,3 +14,14 @@ function whileLoop(n) {
   }
   return 'done';
 }
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+function doWhile(array) {
+  do {
+    array.pop()
+    return array
+  } while (array.length > 0 && maybeTrue());
+}
