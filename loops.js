@@ -1,6 +1,6 @@
 array = [];
 
-function forLoop() {
+function forLoop(array) {
   
 
   for (i = 0; i < 26; i++) {
